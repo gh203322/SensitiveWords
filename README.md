@@ -17,7 +17,7 @@
      SensitiveEhcacheManager.init(String String sensitiveFilePath) 通过指定的文件路径加载敏感词并初始化
      SensitiveEhcacheManager.init(List<String> sensitiveWords) 通过传入敏感词集合初始化
 ``` 
-
+<br>
 （2）实例化WordsSearch，调用敏感词查找方法。
 ```
      WordsSearch wordsSearch = WordsSearch.build()
