@@ -1,8 +1,8 @@
 # SensitiveWords
 基于开源敏感词识别项目的优化版敏感词识别工具
 
-原项目地址：https://github.com/toolgood/ToolGood.Words  如果觉得不错请给原作者和我一个star,thanks!
-此版本目前只包含移植优化了JAVA语言版本，后续完善之后会考虑上传到maven中央仓库
+原项目地址：https://github.com/toolgood/ToolGood.Words  如果觉得不错请给原作者和我一个star,thanks。
+此版本目前只包含移植优化了JAVA语言版本，后续完善之后会考虑上传到maven中央仓库。
 
 在原版本的基础上优化了一下内容：
 1、内置了敏感词库。
