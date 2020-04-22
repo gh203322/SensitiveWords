@@ -14,7 +14,7 @@
 （1）初始化，先调用一次初始化方法,提供了3种初始化方法。<br>
 ```
      SensitiveEhcacheManager.init() 通过加载内置敏感词资源初始化
-     SensitiveEhcacheManager.init(String String sensitiveFilePath) 通过指定的文件路径加载敏感词并初始化
+     SensitiveEhcacheManager.init(String sensitiveFilePath) 通过指定的文件路径加载敏感词并初始化
      SensitiveEhcacheManager.init(List<String> sensitiveWords) 通过传入敏感词集合初始化
 ``` 
 
