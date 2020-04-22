@@ -33,9 +33,6 @@
 @Order(value = 1)
 public class EhcacheInitRunner implements ApplicationRunner {
 
-    @Autowired
-    private EhcacheUtil ehcacheUtil;
-
     @Override
     public void run(ApplicationArguments var1) throws Exception{
         // 读取敏感词词库并加载到缓存
@@ -43,7 +40,7 @@ public class EhcacheInitRunner implements ApplicationRunner {
     }
 }
 ```
-（2）在接口需要调用的地方调用代码。<br>
+（2）在接口需要调用的地方代码如下。<br>
 ```
     WordsSearch wordsSearch = WordsSearch.build();
     List<WordsSearchResult> = wordsSearch.sensitiveWorsFilter(text) //text为待识别的文本
